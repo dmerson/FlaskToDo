@@ -1,0 +1,10 @@
+{%  extends "Layout.html" %}
+
+{% block body%}
+    <ol>
+    {% for totdo in todos %}
+     <li> {{ totdo.title }}</li>
+    {% endfor %}
+
+</ol>
+{% endblock %}
